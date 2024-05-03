@@ -1,4 +1,4 @@
-const colors = require('tailwindcss/colors');
+/* const colors = require('tailwindcss/colors'); */
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -8,7 +8,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
+      /* colors: {
         transparent: 'transparent',
         current: 'currentColor',
         black: colors.black,
@@ -16,14 +16,9 @@ export default {
         emerald: colors.emerald,
         indigo: colors.indigo,
         yellow: colors.yellow,
-        stone: colors.warmGray,
-        sky: colors.lightBlue,
-        neutral: colors.trueGray,
-        gray: colors.coolGray,
-        slate: colors.blueGray,
         violet: colors.violet,
         zinc: colors.zinc
-      }
+      } */
     },
   },
   plugins: [],

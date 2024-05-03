@@ -26,11 +26,11 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-zinc-950 w-screen h-screen flex flex-col text-white justify-center items-center ">
+      <div className="bg-[#09090b] w-screen h-screen flex flex-col text-white justify-center items-center ">
           <div className="text-4xl flex flex-col gap-3">
             <div className="flex gap-2">
               <span className="text-violet-400">const</span>
-              <span>clock = <span className="text-yellow-500">{'{'}</span>  </span>          
+              <span>clock = <span className="text-orange-500">{'{'}</span>  </span>          
             </div>
             <div className="flex flex-col relative left-10">
               <span>hour: <span className="text-green-500 ">{time.hour}</span>,</span>
@@ -40,7 +40,7 @@ export default function Home() {
               <span>year: <span className="text-green-500 ">{time.year}</span></span>
             </div>
             <div className="flex gap-2">
-              <span className="text-yellow-500">{'}'} </span>          
+              <span className="text-orange-500">{'}'} </span>          
             </div>
           </div>
         </div>
